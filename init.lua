@@ -10,7 +10,6 @@ vim.opt.smartindent = true
 vim.opt.updatetime = 50
 vim.opt.scrolloff = 12
 vim.opt.signcolumn = 'yes'
-vim.diagnostic.config({ virtual_text = true })
 vim.cmd('set list')
 vim.cmd('set listchars=tab:>\\ ,trail:.,nbsp:+')
 vim.cmd('set expandtab')
